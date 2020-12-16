@@ -73,8 +73,8 @@ final class SwitchView: BaseView {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        layer.cornerRadius = frame.size.height * 0.4
-        indicatorView.layer.cornerRadius = indicatorImageView.frame.size.height * 0.4
+        //layer.cornerRadius = frame.size.height * 0.4
+        //indicatorView.layer.cornerRadius = indicatorImageView.frame.size.height * 0.4
     }
 
     override func didMoveToSuperview() {

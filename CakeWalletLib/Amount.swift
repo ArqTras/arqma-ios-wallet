@@ -33,7 +33,7 @@ public enum CryptoCurrency: Currency {
     
     public init?(from string: String) {
         switch string.uppercased() {
-        case "XMR", "ARQ":
+        case "ARQ":
             self = .arqma
         case "BTC":
             self = .bitcoin

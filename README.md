@@ -4,7 +4,7 @@
 
 1. Clone the repository.
 ```sh
-git clone https://github.com/fotolockr/CakeWallet.git
+git clone https://github.com/arqma/arqma-ios-wallet.git
 ```
 2. Install [homebrew](https://brew.sh/)
 3. Install arqma dependencies:
@@ -39,4 +39,4 @@ If you get this issue then make sure that boost has been correctly built. You ca
 ### XCode Building problems
 If you're having problems building with Xcode 10 or above then change to the `Legacy Build System`
 
-> We use forked the repo of [ofxiOSBoost](https://github.com/Mikunj/ofxiOSBoost/). We do this ONLY for more convenient installation process.
+> We use forked the repo of [ofxiOSBoost](https://github.com/malbit/ofxiOSBoost/tree/arqma). We do this ONLY for more convenient installation process.

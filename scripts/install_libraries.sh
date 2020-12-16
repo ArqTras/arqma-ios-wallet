@@ -7,7 +7,7 @@ LIBRARY_DIR="$SOURCE_DIR/Libraries"
 ZMQ_URL="https://raw.githubusercontent.com/zeromq/cppzmq/master/zmq.hpp"
 ZMQ_PATH="/usr/local/include/zmq.hpp"
 
-BOOST_URL="https://github.com/Mikunj/ofxiOSBoost.git"
+BOOST_URL="https://github.com/malbit/ofxiOSBoost.git"
 BOOST_DIR_PATH="$LIBRARY_DIR/boost"
 
 OPEN_SSL_URL="https://github.com/x2on/OpenSSL-for-iPhone.git"

@@ -333,7 +333,7 @@ final class SendViewController: BaseViewController<SendView>, StoreSubscriber, Q
                 self?.showSpinner(withTitle: NSLocalizedString("creating_transaction", comment: ""), callback: { alert in
                     let amount = self?.contentView.cryptoAmountTextField.text == SendViewController.allSymbol
                         ? nil
-                        : MoneroAmount(from: self!.contentView.cryptoAmountTextField.text?.replacingOccurrences(of: ",", with: "") ?? "0.0")
+                        : MoneroAmount(from: self!.contentView.cryptoAmountTextField.text?.replacingOccurrences(of: ",", with: ".") ?? "0.0")
                     let address = self?.contentView.addressView.textView.text ?? ""
                     guard let priority = self?.priority else { return }
                     self?.store.dispatch(
@@ -396,6 +396,6 @@ final class SendViewController: BaseViewController<SendView>, StoreSubscriber, Q
             + " "
             + NSLocalizedString("priority", comment: "")
             + ". "
-            + NSLocalizedString("Transaction priority can be adjusted in the settings", comment: "")
+            + NSLocalizedString("Transaction priority can be adjusted in Settings", comment: "")
     }
 }

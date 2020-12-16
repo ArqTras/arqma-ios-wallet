@@ -44,13 +44,13 @@ public enum TransactionPriority: Formatted {
         
         switch self {
         case .slow:
-            description = "Slow"
+            description = "Default Priority (fee x 1)"
         case .default:
-            description = "Regular"
+            description = "High Priority (fee x 4)"
         case .fast:
-            description = "Fast"
+            description = "Very High Priority (fee x 24)"
         case .fastest:
-            description = "Fastest"
+            description = "Ridiculous Priority (fee x 960)"
         }
         
         return description

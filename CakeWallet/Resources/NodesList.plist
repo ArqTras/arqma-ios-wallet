@@ -3,22 +3,10 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>uri</key>
-		<string>eu.supportarqma.com:19994</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>us.supportarqma.com:19994</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>jp.supportarqma.com:19994</string>
-	</dict>
-	<dict>
-		<key>isDefault</key>
-		<true/>
-		<key>uri</key>
-		<string>node.supportarqma.com:19994</string>
+	  <key>isDefault</key>
+	    <true/>
+	    <key>uri</key>
+	    <string>node.supportarqma.com:19994</string>
 	</dict>
 </array>
 </plist>

@@ -1,5 +1,5 @@
 "welcome" = "ようこそ %@";
-"first_wallet_text" = "最初Monero向け iOS\nウォレット ";
+"first_wallet_text" = "最初Arqma向け iOS\nウォレット ";
 "InsufficientFundsWithAmount" = "送信しようとする量 %@ (%@ と 手数料 %@ はバランスを越えています。 %@";
 "InsufficientFunds" = "送信しようとする量はバランスを越えています。 %@";
 "OverallBalanceWithAmonut" = "送信しようとする量%@ はバランスを越えています。 %@";

@@ -1,5 +1,5 @@
 "welcome" = "%@ में आपका स्वागत है ";
-"first_wallet_text" = "Monero के लिए पहला iOS बटुआ ";
+"first_wallet_text" = "Arqma के लिए पहला iOS बटुआ ";
 "InsufficientFundsWithAmount" = "आपके द्वारा भेजी जाने वाली %@ राशि (%@ की राशि +  %@ की फीस आपके कुल बैलेंस %@ से ज्यादा है)";
 "InsufficientFunds" = "आपके द्वारा भेजी जाने वाली राशि आपके कुल बैलेंस %@ से ज्यादा है";
 "OverallBalanceWithAmount" = "आपके द्वारा भेजी जाने वाली राशि %@आपके कुल बैलेंस %@ से ज्यादा है";
