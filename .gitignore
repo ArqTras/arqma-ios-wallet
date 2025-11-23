@@ -10,6 +10,9 @@ build.xcarchive
 *.hmap
 *.ipa
 
+# Export options (może zawierać wrażliwe dane)
+ExportOptions.plist
+
 Pods/
 
 # Mac OS X

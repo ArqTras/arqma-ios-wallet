@@ -658,7 +658,7 @@
 		B0C220DE8138D470C7ACDD07 /* Pods-CakeWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-CakeWallet/Pods-CakeWallet.release.xcconfig"; sourceTree = "<group>"; };
 		B9BE61B123D696EBB6C5E12B /* Pods-CakeWalletLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CakeWalletLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-CakeWalletLib/Pods-CakeWalletLib.release.xcconfig"; sourceTree = "<group>"; };
 		C774353C72AF4F42C79427F7 /* Pods_CWMonero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWMonero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA1D653B209A3EBB00A1FDDB /* LokiWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokiWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1D653B209A3EBB00A1FDDB /* ArqmaWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArqmaWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA1D653E209A3EBB00A1FDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA1D6545209A3EBC00A1FDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA1D654A209A3EBC00A1FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1376,7 +1376,7 @@
 		CA1D653C209A3EBB00A1FDDB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA1D653B209A3EBB00A1FDDB /* LokiWallet.app */,
+				CA1D653B209A3EBB00A1FDDB /* ArqmaWallet.app */,
 				CA1D654F209A3EBC00A1FDDB /* CakeWalletTests.xctest */,
 				646FF2A320E11FFE00ADF30C /* CakeWalletLib.framework */,
 				644A99D320E172FA0035429B /* CakeWalletCore.framework */,
@@ -1555,7 +1555,7 @@
 			);
 			name = CakeWallet;
 			productName = CakeWallet;
-			productReference = CA1D653B209A3EBB00A1FDDB /* LokiWallet.app */;
+			productReference = CA1D653B209A3EBB00A1FDDB /* ArqmaWallet.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CA1D654E209A3EBC00A1FDDB /* CakeWalletTests */ = {
@@ -2212,7 +2212,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet.CakeWalletCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet.CakeWalletCore";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -2246,7 +2246,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet.CakeWalletCore";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet.CakeWalletCore";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -2297,7 +2297,7 @@
 					"$(PROJECT_DIR)/Libraries/loki/lib-ios",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = network.loki.wallet.CWMonero;
+				PRODUCT_BUNDLE_IDENTIFIER = network.arqma.wallet.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(SWIFT_MODULE_NAME)/CWMonero-Bridging-Header.h";
@@ -2350,7 +2350,7 @@
 					"$(PROJECT_DIR)/Libraries/loki/lib-ios",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = network.loki.wallet.CWMonero;
+				PRODUCT_BUNDLE_IDENTIFIER = network.arqma.wallet.CWMonero;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(SWIFT_MODULE_NAME)/CWMonero-Bridging-Header.h";
@@ -2411,7 +2411,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet.CakeWalletLib";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet.CakeWalletLib";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2445,7 +2445,7 @@
 					"@loader_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet.CakeWalletLib";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet.CakeWalletLib";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -2616,8 +2616,8 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet";
-				PRODUCT_NAME = LokiWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet";
+				PRODUCT_NAME = ArqmaWallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2660,8 +2660,8 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.loki-project.loki-wallet";
-				PRODUCT_NAME = LokiWallet;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arqma.arqma-wallet";
+				PRODUCT_NAME = ArqmaWallet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 4.0;
